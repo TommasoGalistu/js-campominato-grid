@@ -37,6 +37,10 @@ main{
 
 }
 
+.square:hover{
+    cursor: pointer;
+}
+
 .clicked{
     background-color: aqua;
     color: black;
