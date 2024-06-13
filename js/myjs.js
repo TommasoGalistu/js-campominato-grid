@@ -10,7 +10,7 @@ let numSquare;
 // al click spariranno gli input e apparirà il gioco
 buttonFOrm.addEventListener('click', () =>{
     // selezione default
-    numSquare = formGioco.value !== 'select' ? formGioco.value : 100;
+    numSquare = formGioco.value !== 'select' ? formGioco.value : '100';
     // rendo invisibile il form e inizia il gioco
     contInput.classList.add('invisible')
 
@@ -68,7 +68,7 @@ contSquare.addEventListener('click', (event) =>{
 
 // evento che ritorna alla situazione di partenza per rigiocare
 contRicaricaPage.addEventListener('click', () =>{
-
+    window.location.reload();
 })
 
     

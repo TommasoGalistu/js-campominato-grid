@@ -8,10 +8,11 @@ body{
     background-color: black;
     color: white;
     text-align: center;
+    height: 100vh;
 }
 
 main{
-    height: 100vh;
+    height: 90%;
     width: 100%;
     background-color: black;
     display: flex;
