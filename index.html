@@ -12,11 +12,21 @@
         <div class="contTitolo">
             <h1>Campo minato</h1>
         </div>
-        <main>
-            <div class="container">
-                <!-- <div class="square clicked"> 1</div> -->
-                
+        <main id="mainContainer">
+            <div class="contInput">
+                <label>Scegli la modalità di gioco</label>
+                <select id="formGioco">
+                    <option value="select">Select</option>
+                    <option value="100">facile</option>
+                    <option value="81">medio</option>
+                    <option value="49">difficile</option>
+                </select>
+                <button id="buttonElement">Clicca</button>
             </div>
+            <!-- <div class="container">
+                <div class="square clicked"> 1</div>
+                
+            </div> -->
         </main>
 
         <script src="js/funzioni.js"></script>
