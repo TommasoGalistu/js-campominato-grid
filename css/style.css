@@ -31,6 +31,10 @@ main{
     height: var(--latosquare);
     border: 1px solid white;
     float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .clicked{
