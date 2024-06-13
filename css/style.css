@@ -20,6 +20,20 @@ main{
 
 }
 
+label{
+    font-size: 1.5rem;
+}
+button{
+    padding: 0.3rem 0.6rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
 .container{
     width: var(--dimensioneGrid);
     height: 80%;
@@ -44,4 +58,8 @@ main{
 .clicked{
     background-color: aqua;
     color: black;
+}
+
+.invisible{
+    display: none;
 }
