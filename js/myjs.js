@@ -3,6 +3,7 @@ let formGioco = document.getElementById('formGioco');
 let buttonFOrm = document.getElementById('buttonElement');
 let contInput = document.querySelector('.contInput')
 var tuttaLaRoot = document.documentElement;
+let contRicaricaPage = document.querySelector('.contButtonRicarica');
 
 let numSquare;
 
@@ -41,12 +42,14 @@ buttonFOrm.addEventListener('click', () =>{
     }
     // quando il container è completo lo appendo al main
     contSquare.append(container)
+
+    contRicaricaPage.classList.remove('invisible')
 });
 
 
 
 
-
+// evento che colora gli square
 contSquare.addEventListener('click', (event) =>{
     // rintraccio l'elemento e lo manipolo
     let element = event.target.classList
@@ -56,7 +59,16 @@ contSquare.addEventListener('click', (event) =>{
         element.remove('clicked')
     }
     // stampo in console il numero che è stato cliccato
-    console.log(event.target.textContent)
+    if(element.contains('square')){
+        console.log(event.target.textContent)
+    }
+    
+    
 });
+
+// evento che ritorna alla situazione di partenza per rigiocare
+contRicaricaPage.addEventListener('click', () =>{
+
+})
 
     
