@@ -66,6 +66,7 @@ contSquare.addEventListener('click', (event) =>{
     
 });
 
+
 // evento che ritorna alla situazione di partenza per rigiocare
 contRicaricaPage.addEventListener('click', () =>{
     window.location.reload();
