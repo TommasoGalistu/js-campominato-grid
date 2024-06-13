@@ -21,13 +21,19 @@ main{
 }
 
 .container{
-    width: 40rem;
+    width: var(--dimensioneGrid);
     height: 80%;
-    border: 1px solid white;
+    
 }
 
 .square{
-    width: 4rem;
-    height: 4rem;
+    width: var(--latosquare);
+    height: var(--latosquare);
     border: 1px solid white;
+    float: left;
+}
+
+.clicked{
+    background-color: aqua;
+    color: black;
 }
